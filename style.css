@@ -1,0 +1,30 @@
+form {
+    background: rgba(229, 12, 77, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  body {
+   background: linear-gradient(to right, #be4db1,#b92683);
+  }
+
+  body{
+    font-family: 'Big Shoulders Inline', cursive;
+    font-weight: 500;
+  }
+
+  button:hover {
+    background-color: #df4674;
+    color: rgb(218, 233, 219);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  input:hover {
+    border: 2px solid #070707;
+    transition: 0.3s;
+  }
+  
