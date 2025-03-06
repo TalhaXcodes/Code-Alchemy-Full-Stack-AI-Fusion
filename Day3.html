@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header style="text-decoration: underline;">
+        <h1>Registration Form</h1>
+    </header>
+    <form action="post">
+        <div style="margin-top: 30px;">
+            <label for="name"><b>Name</b></label>
+            <input type="text" id="name" required>
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="email"><b>email</b></label>
+            <input type="email" id="email" required>
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="pass"><b>Password</b></label>
+            <input type="password" id="pass" required>
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="male"><b>Gender</b></label><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="study"><b>Hobbies</b></label> <br>
+            <label for="study">study</label>
+            <input type="checkbox">
+            <label for="sports">sports</label>
+            <input type="checkbox">
+            <label for="travel">travel</label>
+            <input type="checkbox">
+            <label for="music">music</label>
+            <input type="checkbox">
+            <label for="gaming">gaming</label>
+            <input type="checkbox">
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="country">Choose Country</label>
+            <select name="region" id="country" required>
+                <!--Listing limited countries as it is just a demo page -->
+                <option>Pakistan</option>
+                <option>China</option>
+                <option>Iran</option>
+                <option>Canada</option>
+                <option>USA</option>
+                <option>United Kingdom</option>
+                <option>Australia</option>
+                <option>Sudan</option>
+                <option>India</option>
+                <option>Turkey</option>
+                <option>France</option>
+                <option>Russia</option>
+                <option>Spain</option>
+                <option>Portugal</option>
+                <option>Colombia</option>
+                <option>Cambodia</option>
+                <option>Azerbaijan</option>
+                <option>Ukraine</option>
+                <option>Croatia</option>
+                <option>Japan</option>
+                <option>North Korea</option>
+                <option>Saudi Arabia</option>
+                <option>UAE</option>
+                <option>Qatar</option>
+                <option>South Korea</option>
+                <option>Mongolia</option>
+                <option>Nepal</option>
+                <option>Bhutan</option>
+                <option>Malaysia</option>
+                <option>Indonesia</option>
+            </select>
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="about"><b>Tell us about yourself</b></label>
+            <textarea name="none" id="about" placeholder="About you" rows="10" cols="40" required></textarea>
+        </div>
+        <div style="margin-top: 10px;">
+            <button type="submit">
+                submit
+            </button>
+        </div>
+    </form>
+</body>
+</html>
